@@ -16,8 +16,6 @@ frame {
     border-radius: 5px;
     transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
-
-/* Custom styles for specific frames */
 frame[name="f11"] {
     background-color: #3498db;
     color: #fff;
@@ -67,13 +65,9 @@ frame[name="ft"] {
     background-color: #3498db;
     color: #fff;
 }
-
-/* Optional: Add hover effect */
 frame:hover {
     border-color: #27ae60;
 }
-
-/* Optional: Add transition for smooth effect */
 frame:hover {
     background-color: #2ecc71;
 }
