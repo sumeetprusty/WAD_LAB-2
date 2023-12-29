@@ -16,13 +16,15 @@ frame {
     border-radius: 5px;
     transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
+
+/* Custom styles for specific frames */
 frame[name="f11"] {
     background-color: #3498db;
     color: #fff;
 }
 
 frame[name="f12"] {
-    background-color: #e74c3c;
+    background-color: #dcf218;
     color: #fff;
 }
 
@@ -57,7 +59,7 @@ frame[name="f26"] {
 }
 
 frame[name="f31"] {
-    background-color: #e74c3c;
+    background-color: #05fb2e;
     color: #fff;
 }
 
