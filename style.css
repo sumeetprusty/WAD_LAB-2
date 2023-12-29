@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+frameset {
+    border: 2px solid #333;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: border-color 3s ease-in-out;
+}
+
+frame {
+    border: 2px solid #555;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Custom styles for specific frames */
+frame[name="f11"] {
+    background-color: #3498db;
+    color: #fff;
+}
+
+frame[name="f12"] {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+frame[name="f21"] {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+frame[name="f22"] {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+frame[name="f23"] {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+frame[name="f24"] {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+frame[name="f25"] {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+frame[name="f26"] {
+    background-color: #88c4ff;
+    color: #fff;
+}
+
+frame[name="f31"] {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+frame[name="ft"] {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Optional: Add hover effect */
+frame:hover {
+    border-color: #27ae60;
+}
+
+/* Optional: Add transition for smooth effect */
+frame:hover {
+    background-color: #2ecc71;
+}
